@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tools and Applications for Research and the Port Sector</title>
+  <meta name="description" content="Tools and Applications for Research and the Port Sector — UFMA / SDG Hub">
+  <style>
+    :root {
+      --bg: #083d2d;
+      --ink: #ffffff;
+      --muted: #d3f3e7;
+      --card: rgba(255,255,255,0.06);
+      --border: rgba(255,255,255,0.18);
+      --accent: #a6ffe1;
+      --btn: rgba(255,255,255,.08);
+      --btn-hover: rgba(255,255,255,.18);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif; line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 1000px; margin: 0 auto; padding: 28px; }
+    header { border: 1px solid var(--border); background: linear-gradient(135deg, rgba(0,0,0,.15), rgba(0,0,0,.0)); border-radius: 18px; padding: 26px; margin: 14px 0 22px; }
+    h1 { margin: 0 0 10px; font-size: 1.9rem; }
+    .panel { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 16px; }
+    @media (min-width: 760px) { .panel { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 980px) { .panel { grid-template-columns: 1fr 1fr 1fr; } }
+    .card-link { display: flex; align-items: center; gap: 10px; padding: 14px 16px; background: var(--card); border: 1px solid var(--border); border-radius: 14px; text-decoration: none; color: var(--ink); }
+    .card-link:hover { background: rgba(255,255,255,0.1); }
+    .card-link .emoji { font-size: 1.2rem; }
+    .card-link .name { font-weight: 600; }
+    .tool-section { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 18px; margin: 16px 0; }
+    h2 { margin: 0 0 8px; font-size: 1.2rem; }
+    .btn { display: inline-block; padding: 8px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--btn); color: var(--ink); text-decoration: none; }
+    .btn:hover { background: var(--btn-hover); }
+    .btn.ghost { background: transparent; }
+    footer { opacity: .8; color: var(--muted); margin: 26px 0 8px; text-align: center; }
+  </style>
+</head>
+<body id="top">
+  <div class="wrap">
+    <header>
+      <h1>Tools and Applications for Research and the Port Sector</h1>
+      <div class="panel" aria-label="Quick access to tools">
+        <a class="card-link" href="#textmining"><span class="emoji">🛠️</span><span class="name">Text Mining Assistant</span></a>
+        <a class="card-link" href="#ods-attributes"><span class="emoji">🌍</span><span class="name">SDG Attributes – Port Sector</span></a>
+        <a class="card-link" href="#trade"><span class="emoji">📊</span><span class="name">Global Maritime Trade Dashboard</span></a>
+        <a class="card-link" href="#movimentacao"><span class="emoji">⚓</span><span class="name">Port Operations Dashboard</span></a>
+        <a class="card-link" href="#exportacoes"><span class="emoji">🚢</span><span class="name">Port Exports</span></a>
+        <a class="card-link" href="#blueport"><span class="emoji">🌊</span><span class="name">BluePort – AI for Waste Monitoring</span></a>
+        <a class="card-link" href="#itaqui"><span class="emoji">📈</span><span class="name">Itaqui Dashboard</span></a>
+        <a class="card-link" href="#audio"><span class="emoji">🔊</span><span class="name">Audio Generator</span></a>
+        <a class="card-link" href="#sdgplatform"><span class="emoji">🗂️</span><span class="name">SDG Ports Platform</span></a>
+      </div>
+    </header>
+
+    <main>
+      <section id="textmining" class="tool-section">
+        <h2>🛠️ Text Mining Assistant</h2>
+        <p>A tool designed to analyse text within PDF files, identifying and highlighting up to three keywords. Results can be exported to Word and Excel, facilitating the organisation of evidence in academic and technical reports.</p>
+        <p><a class="btn" href="https://textmininginput.streamlit.app/" target="_blank" rel="noopener">Open app</a> · <a class="btn ghost" href="#top">Back to top</a></p>
+      </section>
+
+      <section id="ods-attributes" class="tool-section">
+        <h2>🌍 SDG Attributes – Port Sector</h2>
+        <p>Application developed to include, manage, and monitor data linked to the SDGs, allowing users to organise information and track sustainability indicators in port projects.</p>
+        <p><a class="btn" href="https://modeloods-ff6md9cyz5pfwinhzlupgm.streamlit.app/" target="_blank" rel="noopener">Open app</a> · <a class="btn ghost" href="#top">Back to top</a></p>
+      </section>
+
+      <section id="trade" class="tool-section">
+        <h2>📊 Global Maritime Trade Dashboard</h2>
+        <p>An interactive tool to analyse cargo flows in the Brazilian waterway sector, broken down by country and product type. The dashboard offers insights into international trade, revealing geographical distribution and volume trends.</p>
+        <p><a class="btn" href="https://globalmaritimetradedashboard.streamlit.app/" target="_blank" rel="noopener">Open dashboard</a> · <a class="btn ghost" href="#top">Back to top</a></p>
+      </section>
+
+      <section id="movimentacao" class="tool-section">
+        <h2>⚓ Port Operations Dashboard</h2>
+        <p>Interactive dashboard for analysing and visualising cargo movements in Brazilian ports, offering a comprehensive view of port activity. It helps identify logistics trends, bottlenecks, and opportunities for improvement.</p>
+        <p><a class="btn" href="https://observatorio1.streamlit.app/" target="_blank" rel="noopener">Open dashboard</a> · <a class="btn ghost" href="#top">Back to top</a></p>
+      </section>
+
+      <section id="exportacoes" class="tool-section">
+        <h2>🚢 Port Exports</h2>
+        <p>This tool provides an overview of maritime exports handled by the port sector in 2023. The dashboard details export volumes by country and product, helping users understand trade flows and cargo distribution.</p>
+        <p><a class="btn" href="https://portexports.streamlit.app/" target="_blank" rel="noopener">Open dashboard</a> · <a class="btn ghost" href="#top">Back to top</a></p>
+      </section>
+
+      <section id="blueport" class="tool-section">
+        <h2>🌊 BluePort – AI for Waste Monitoring</h2>
+        <p>BluePort is an Artificial Intelligence assistant in Portuguese, developed to identify and classify waste in port areas. The solution supports cleaning actions, environmental management, and ocean conservation.</p>
+        <p><a class="btn" href="https://darlianecunha.github.io/blueportsia/" target="_blank" rel="noopener">Project details</a> · <a class="btn ghost" href="#top">Back to top</a></p>
+      </section>
+
+      <section id="itaqui" class="tool-section">
+        <h2>📈 Itaqui Dashboard</h2>
+        <p>Presents data at the port of Itaqui, allowing analysis of port activities and sustainable initiatives.</p>
+        <p><a class="btn" href="https://itaqui.vercel.app/" target="_blank" rel="noopener">Open dashboard</a> · <a class="btn ghost" href="#top">Back to top</a></p>
+      </section>
+
+      <section id="audio" class="tool-section">
+        <h2>🔊 Audio Generator</h2>
+        <p>App for transforming written texts into audio files, facilitating communication and accessibility in research and outreach activities.</p>
+        <p><a class="btn" href="https://textforaudio.streamlit.app/" target="_blank" rel="noopener">Open app</a> · <a class="btn ghost" href="#top">Back to top</a></p>
+      </section>
+
+      <section id="sdgplatform" class="tool-section">
+        <h2>🗂️ SDG Ports Platform</h2>
+        <p>Database with links to projects and initiatives related to sustainability and innovation in the port sector.</p>
+        <p><a class="btn" href="https://app18-seven.vercel.app/" target="_blank" rel="noopener">Open platform</a> · <a class="btn ghost" href="#top">Back to top</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 · UFMA · SDG Hub · Developed by Darliane R. Cunha</p>
+    </footer>
+  </div>
+</body>
+</html>
